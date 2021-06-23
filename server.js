@@ -13,7 +13,7 @@ const io = socket(server, {
 })
 
 function getAllChats(sender, receiver) {
-    return []
+    return ['hello-world']
 }
 
 app.use(cors())
