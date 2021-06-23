@@ -42,7 +42,8 @@ io.on('connection', (socket) => {
 
 app.use(cors({ origin: 'http://localhost:3000' }))
 
+const port = process.env["PORT"] || 3001
 
-server.listen(3001, () => {
+server.listen(port, () => {
     console.log("the server is running");
 })

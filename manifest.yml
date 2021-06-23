@@ -1,0 +1,4 @@
+applications:
+  - name: "Whatsapp clone"
+    random-route: true
+    memory: 64M
